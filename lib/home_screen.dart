@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     Gap(10),
                     Text(
-                      '${_data[0]['total_case'] ?? ''} คน',
+                      '${_data[index]['total_case'] ?? ''} คน',
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
