@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 18,
-                          fontWeight: FontWeight.w500),
+                          fontWeight: FontWeight.bold),
                     ),
                     Gap(10),
                     Text(
@@ -94,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       style: TextStyle(
                           color: Colors.white,
                           fontSize: 20,
-                          fontWeight: FontWeight.bold),
+                          fontWeight: FontWeight.w500),
                     ),
                     Gap(10),
                     Text(
